@@ -1,0 +1,16 @@
+.idea
+
+/Source
+
+/Srd/*/*
+!/Srd/*/.vuepress
+!/Srd/*/menu.js
+/Srd/*/.vuepress/dist/
+/Gen/*/*
+!/Gen/*/config.js
+
+
+/.env
+/tmp
+/build
+

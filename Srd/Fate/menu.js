@@ -73,6 +73,24 @@ const menu = {
                 '/fate-prevodni-prirucka/6-prevod-pv',
             ]
         },
+
+        {
+            title: 'Fate Star Wars',
+            collapsable: true,
+            children: [
+                '/fate-star-wars/1-uvod',
+                '/fate-star-wars/2-fate-svetelnou-rychlosti',
+                '/fate-star-wars/3-jak-hrat-star-wars',
+                '/fate-star-wars/4-tvorba-vasi-star-wars-hry',
+                '/fate-star-wars/5-tvorba-postavy',
+                '/fate-star-wars/6-sila',
+                '/fate-star-wars/7-akce-drama-boj',
+                '/fate-star-wars/8-galaxie',
+                '/fate-star-wars/9-vedeni-star-wars-pribehu',
+                '/fate-star-wars/10-dodatek-generator-planet',
+                '/fate-star-wars/11-seznam-obrazku',
+            ]
+        },
     ]
 };
 

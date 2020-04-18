@@ -9,7 +9,6 @@ fi;
 
 vuepress build Srd/$SELECT_SRD;
 
-NOW=$(date +"%Y-%m-%d-%H-%M")
-rm /var/www/html/build/$SELECT_SRD-$NOW.zip
+rm /var/www/html/build/$SELECT_SRD-$DEPLOY_VERSION.zip
 cd Srd/$SELECT_SRD/.vuepress/dist;
-zip -r /var/www/html/build/$SELECT_SRD-$NOW.zip *;
+zip -r /var/www/html/build/$SELECT_SRD-$DEPLOY_VERSION.zip *;

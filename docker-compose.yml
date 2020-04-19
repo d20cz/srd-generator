@@ -17,6 +17,10 @@ services:
       - ./yarn.lock:/var/www/html/yarn.lock
       - ./build:/var/www/html/build
       - ./build.sh:/var/www/html/build.sh
+      - ./dev.sh:/var/www/html/dev.sh
+      - ./Source:/var/www/html/Source
+      - ./sourceRsync.sh:/var/www/html/sourceRsync.sh
+      - ./clearSrdData.sh:/var/www/html/clearSrdData.sh
     ports:
       - "8080:8080"
       - "8081:8081"

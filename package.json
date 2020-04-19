@@ -11,7 +11,7 @@
     "vuepress": "^1.0.0"
   },
   "scripts": {
-    "srd:dev": "vuepress dev Srd/$SELECT_SRD --host 0.0.0.0",
+    "srd:dev": "./dev.sh",
     "srd:build": "./build.sh",
     "srd:gen": "node tools/gen.js",
     "srd:menu": "node tools/menu.js"

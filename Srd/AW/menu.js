@@ -34,6 +34,7 @@ const menu = {
                 'e2/23-ludgrafie',
                 'e2/24-dodatky-rozsirujici-prirucky',
                 'e2/25-dodatky-vesmirnej-vysadek',
+                'e2/ke-stazeni-a-odkazy',
             ]
         },
     ]

@@ -89,6 +89,7 @@ const menu = {
                 '/fate-star-wars/9-vedeni-star-wars-pribehu',
                 '/fate-star-wars/10-dodatek-generator-planet',
                 '/fate-star-wars/11-seznam-obrazku',
+                '/fate-star-wars/ke-stazeni-a-odkazy',
             ]
         },
     ]

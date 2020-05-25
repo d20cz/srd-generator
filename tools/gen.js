@@ -36,7 +36,7 @@ if (namespaceSettings !== undefined) {
         const headerprefix = "#".repeat(snipetSettings.headerOffset);
         snippetsFiles = fs.readdirSync(dir);
         console.log(` - Začínám nahrazovat snippety ${dir}: ${snippetsFiles.length}`);
-        snippetsFiles.sort().reverse().forEach(file => {
+        snippetsFiles.sort((a,b) => b.length - a.length).forEach(file => {
             let snippetToken = 'snippet-'+snipetSettings.snippet+':' + file.replace('.md', '');
             const regex = new RegExp(snippetToken, 'g');
             let to = fs.readFileSync(dir + '/' + file, 'utf8');

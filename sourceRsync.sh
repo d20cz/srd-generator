@@ -6,14 +6,17 @@ do
   sed -i -e :a -re 's/<!--.*?-->//g;/<!--/N;//ba' $m;
 done;
 
+rm Source/srd.d20.cz/DnD5e/pruvodce-pana-jeskyne/7-kapitola.md
 cat Source/srd.d20.cz/DnD5e/pruvodce-pana-jeskyne/7-kapitola-a.md  \
     Source/srd.d20.cz/DnD5e/pruvodce-pana-jeskyne/7-kapitola-b.md  \
     >> Source/srd.d20.cz/DnD5e/pruvodce-pana-jeskyne/7-kapitola.md
 
+rm Source/srd.d20.cz/DnD5e/prirucka-hrace/3-kapitola.md
 cat Source/srd.d20.cz/DnD5e/prirucka-hrace/3-kapitola-a.md  \
     Source/srd.d20.cz/DnD5e/prirucka-hrace/3-kapitola-b.md  \
     >> Source/srd.d20.cz/DnD5e/prirucka-hrace/3-kapitola.md
 
+rm Source/srd.d20.cz/DnD5e/prirucka-hrace/11-kapitola.md
 cat Source/srd.d20.cz/DnD5e/prirucka-hrace/11-kapitola-a.md  \
     Source/srd.d20.cz/DnD5e/prirucka-hrace/11-kapitola-b.md  \
     >> Source/srd.d20.cz/DnD5e/prirucka-hrace/11-kapitola.md

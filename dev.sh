@@ -5,6 +5,9 @@ echo "d20.cz SRD generator (dev)"
 #yarn install
 #yarn upgrade
 
+# ./clearSrdData.sh
+# ./sourceRsync.sh
+
 if [ "$SELECT_SRD" = "DnD5e" ]; then \
   yarn srd:gen grimoar-jmen;
   yarn srd:gen grimoar-moci;

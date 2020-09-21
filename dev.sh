@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
 
+echo "\n"
 echo "d20.cz SRD generator (dev)"
+echo "generuji: $SELECT_SRD"
+echo "\n"
 
 #yarn install
 #yarn upgrade

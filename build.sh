@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
 
+echo "\n"
 echo "d20.cz SRD generator (build)"
+echo "generuji: $SELECT_SRD  $DEPLOY_VERSION"
+echo "\n"
 
 if [ "$SELECT_SRD" = "DnD5e" ]; then \
   yarn srd:gen grimoar-jmen;

@@ -17,18 +17,27 @@ Powered by [VuePress](https://vuepress.vuejs.org/)
 
 Je potřeba stáhnout aktuální md soubory a složky z Google Drive
 
-```.env``` -  Odkomentovat generované srd SELECT_SRD a a nastavit DEV=0
+```.env``` -  Odkomentovat generované srd SELECT_SRD
 
 ```bash
-docker-compose up
+docker-compose up build
 ```
 
 ### Development
 
 Je potřeba stáhnout aktuální md soubory a složky z Google Drive
 
-```.env``` -  Odkomentovat generované srd SELECT_SRD a a nastavit DEV=1
+```.env``` -  Odkomentovat generované srd SELECT_SRD
 
 ```bash
-docker-compose up
+docker-compose up server
+```
+
+#### Příklady spouštění dalších jednorázových skriptů
+
+```bash
+docker-compose run --rm u_yarn install
+docker-compose run --rm u_yarn upgrade
+docker-compose run --rm u_yarn srd:clearData
+docker-compose run --rm u_yarn srd:sourceRsync
 ```

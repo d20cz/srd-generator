@@ -13,6 +13,8 @@
   "scripts": {
     "srd:dev": "./dev.sh",
     "srd:build": "./build.sh",
+    "srd:clearData": "./clearSrdData.sh",
+    "srd:sourceRsync": "./sourceRsync.sh",
     "srd:gen": "node tools/gen.js",
     "srd:menu": "node tools/menu.js"
   }

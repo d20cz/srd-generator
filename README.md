@@ -20,7 +20,10 @@ Je potřeba stáhnout aktuální md soubory a složky z Google Drive
 ```.env``` -  Odkomentovat generované srd SELECT_SRD
 
 ```bash
-docker-compose up build
+docker-compose run --rm -e SELECT_SRD=Index -e DEPLOY_VERSION=v1.3 build
+docker-compose run --rm -e SELECT_SRD=Fate -e DEPLOY_VERSION=v1.3 build
+docker-compose run --rm -e SELECT_SRD=DnD5e -e DEPLOY_VERSION=v1.3 build
+docker-compose run --rm -e SELECT_SRD=AW -e DEPLOY_VERSION=v1.3 build
 ```
 
 ### Development

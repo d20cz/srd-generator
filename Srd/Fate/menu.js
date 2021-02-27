@@ -4,6 +4,30 @@ Zde se vyplnují položky menu
 Je potřeba vytvořit záznam v dané skupině pro všechny stránky v pořadím v jakém je chceme mít
  */
 const menu = {
+    '/dfa/': [
+        {
+            title: 'Dresden Files Zrychleně',
+            collapsable: false,
+            children: [
+                '/dfa/faktura',
+                '/dfa/predmluva',
+                '/dfa/1-frakce',
+                '/dfa/2-mista',
+                '/dfa/3-svet',
+                '/dfa/4-tvorba-hry',
+                '/dfa/5-postava',
+                '/dfa/6-pravidla',
+                '/dfa/7-aspekty',
+                '/dfa/8-plaste',
+                '/dfa/9-ritualni-magie',
+                '/dfa/10-konflikty',
+                '/dfa/11-vyvoj',
+                '/dfa/12-vedeni-hry',
+                '/dfa/13-ukazkova-kampan',
+                '/dfa/rejstrik-herni-pomucky',
+            ]
+        },
+    ],
     '/': [
         {
             title: 'Fate základní pravidla',
@@ -92,7 +116,7 @@ const menu = {
                 '/fate-star-wars/ke-stazeni-a-odkazy',
             ]
         },
-    ]
+    ],
 };
 
 

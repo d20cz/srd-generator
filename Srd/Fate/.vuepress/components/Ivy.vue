@@ -6,7 +6,6 @@
 
 <script>
     export default {
-        name: 'Ivy',
         props: [],
         data() {
             return {};
@@ -15,8 +14,9 @@
 </script>
 
 
-<style lang="scss">
+<style scoped lang="scss">
     .component-ivy {
-        color: blue;
+        color: steelblue;
+
     }
 </style>

@@ -1,12 +1,11 @@
 <template>
-    <div class="component-comment">
+    <div class="component-example">
         <slot></slot>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'Comment',
         props: [],
         data() {
             return {};
@@ -15,9 +14,9 @@
 </script>
 
 
-<style lang="scss">
-    .component-comment {
-        border-left: 0.25rem solid blueviolet;
+<style scoped lang="scss">
+    .component-example {
+        border-left: 0.2rem solid blueviolet;
         padding-left: 1rem;
         color: blueviolet;
     }

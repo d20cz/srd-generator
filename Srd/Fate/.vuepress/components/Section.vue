@@ -1,11 +1,12 @@
 <template>
-    <span class="component-kincaid">
+    <span class="component-section">
         <slot></slot>
     </span>
 </template>
 
 <script>
     export default {
+        name: 'Section',
         props: [],
         data() {
             return {};
@@ -14,9 +15,10 @@
 </script>
 
 
-<style scoped lang="scss">
-    .component-kincaid {
-        color: darkred;
-        font-style: italic;
+<style lang="scss">
+    .component-section {
+        color: indigo;
+        font-size: 120%;
+        font-weight: bold;
     }
 </style>

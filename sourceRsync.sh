@@ -68,4 +68,6 @@ rm -rf \
   Srd/DnD5e/prirucka-hrace/3-kapitola-a.md \
   Srd/DnD5e/prirucka-hrace/3-kapitola-b.md \
   Srd/DnD5e/prirucka-hrace/11-kapitola-a.md \
-  Srd/DnD5e/prirucka-hrace/11-kapitola-b.md
+  Srd/DnD5e/prirucka-hrace/11-kapitola-b.md \
+  Srd/Fate/dfa/CustomComponents \
+  Srd/Fate/dfa/DFAKeys.ods

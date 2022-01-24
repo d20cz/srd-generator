@@ -62,6 +62,12 @@ rsync -rv \
   --exclude="*" \
   Source/srd.d20.cz/DnD5e/ Gen/DnD5e
 
+rsync -rv \
+  --include="README.md" \
+  --include="zakladni-prirucka/***" \
+  --exclude="*" \
+  Source/srd.d20.cz/DrD2/ Srd/DrD2
+
 rm -rf \
   Srd/DnD5e/pruvodce-pana-jeskyne/7-kapitola-a.md \
   Srd/DnD5e/pruvodce-pana-jeskyne/7-kapitola-b.md \

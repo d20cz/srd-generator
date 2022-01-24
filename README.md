@@ -24,6 +24,7 @@ docker-compose run --rm -e SELECT_SRD=Index -e DEPLOY_VERSION=v1.3 build
 docker-compose run --rm -e SELECT_SRD=Fate -e DEPLOY_VERSION=v1.3 build
 docker-compose run --rm -e SELECT_SRD=DnD5e -e DEPLOY_VERSION=v1.3 build
 docker-compose run --rm -e SELECT_SRD=AW -e DEPLOY_VERSION=v1.3 build
+docker-compose run --rm -e SELECT_SRD=DrD2 -e DEPLOY_VERSION=v1.3 build
 ```
 
 ### Development

@@ -29,3 +29,7 @@ rm -rf Srd/DnD5e/grimoar/*
 rm -rf Srd/DnD5e/soupis/*
 rm -rf Gen/DnD5e/snippets/
 rm -rf Gen/DnD5e/templates/
+
+
+rm -rf Srd/DrD2/README.md
+rm -rf Srd/DrD2/zakladni-prirucka/

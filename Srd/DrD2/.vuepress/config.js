@@ -7,8 +7,8 @@ const googleAnalytics = (dev == 0) ? googleAnalyticsCode : '';
 
 module.exports = {
 
-    title: 'Český překlad DrD 2 SRD',
-    description: 'Český překlad DrD 2 SRD',
+    title: 'DrDII SRD',
+    description: 'DrDII SRD',
 
     themeConfig: {
         theme: '@vuepress/theme-default',

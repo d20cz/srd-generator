@@ -23,6 +23,7 @@ const menu = {
                 ['http://fatesrd.d20.cz', 'Fate SRD'],
                 ['http://dnd5esrd.d20.cz', 'DnD 5e SRD'],
                 ['http://awsrd.d20.cz', 'Apokalyptickej svět SRD'],
+                ['http://drd2srd.d20.cz', 'DrDII SRD'],
             ]
         },
     ],
